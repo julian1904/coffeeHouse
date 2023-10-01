@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="elementos">
+                <a href="index.html">Home</a>
+                <a href="preparaciones.html">Preparaciones</a>
+                <a href="culturacafe.html">Cultura Café</a>
+                <a href="contacto.html">Contacto</a>
+                <!-- <a href="">Nosotros</a> -->
+            </div>
+            <div class="logo"><a href=""><img src="logo.png" alt=""></a></div>
+            <div class="login">
+                <a href="">Registrarse</a>
+                <a href="">Iniciar sesión</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact" id="contact">
+            <h2 class="contact-title">Contacto</h2>
+            <div class="contact-details">
+                <div class="contact_details-group">
+                    <p class="contact-label">Dirección:</p>
+                    <p class="contact-text">Salta, Argentina</p>
+                </div>
+                <div class="contact_details-group">
+                    <p class="contact-label">Email:</p>
+                    <p class="contact-text">CoffeeHouse@gmail.com</p>
+                </div>
+                <div class="contact_details-group">
+                    <p class="contact-text">Deje su mensaje y con gusto le responderé
+                    </p>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="contact-form-group">
+                    <label for="name">Nombre</label>
+                    <input required type="text" name="name" id="name">
+                </div>
+                <div class="contact-form-group">
+                    <label for="email">Email</label>
+                    <input required type="email" name="email" id="email">
+                </div>
+                <div class="contact-form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea required name="message" id="message" rows="6"></textarea>
+                </div>
+
+                <button type="submit" class="contact-form-submit">Enviar</button>
+            </form>
+        </section>    
+
+    </main>
+</body>
+</html>
